@@ -13,7 +13,17 @@
             <li><%= link_to 'HOME', {:controller => "top"}, class: "btn" %></li>
             <li><%= link_to 'BLOG', {:controller => "blogs", :action => 'index'}, class: "btn" %></li>
             <li><%= link_to 'CONTACT US', form_path, class: "btn" %></li>
+            
+            <% if user_signed_in? %>
+            <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+            <% else %>
+            <li><%= link_to "Login", new_user_session_path %></li>
+            <% end %>
         </ul>
+        
+        
+
+
     </nav>
 </div>
 
