@@ -1,6 +1,25 @@
-<h1>試作アプリ</h1>
-<ul>
-    <li><%= link_to 'HOME', {:controller => "top"}, class: "btn" %></li>
-    <li><%= link_to 'BLOG', {:controller => "blogs", :action => 'index'}, class: "btn" %></li>
-    <li><%= link_to 'CONTACT US', {:controller => "form"}, class: "btn" %></li>
-</ul>
+<div class="boxA">
+    <div class="box1">
+        <div class="site">
+            <h1>試作アプリ</h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="box2">
+    <nav class="menu">
+        <ul>
+            <li><%= link_to 'HOME', {:controller => "top"}, class: "btn" %></li>
+            <li><%= link_to 'BLOG', {:controller => "blogs", :action => 'index'}, class: "btn" %></li>
+            <li><%= link_to 'CONTACT US', form_path, class: "btn" %></li>
+        </ul>
+    </nav>
+</div>
+
+
+
+
+
+
+

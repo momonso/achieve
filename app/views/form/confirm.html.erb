@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1>お問い合わせ</h1>
+  <h1>お問い合わせ（入力内容の確認）</h1>
 </div>
  
 <%= form_for @form, :url => form_confirm_path do |f| %>
@@ -23,7 +23,7 @@
       <th>お問い合わせ内容</th>
       <td>
         <%= f.hidden_field :message %>
-        <%= @form.message %>
+        <%= simple_format(@form.message) %>
       </td>
     </tr>
   </table>
@@ -46,7 +46,7 @@
     
 
   <ul>
-    <li><%= link_to 'TOPへ戻る', {:controller => "top"}, class: "btn" %></li>
+    <li><%= link_to 'TOPへ', root_path, {:class => "btn"} %></li>
   </ul>
   
 
