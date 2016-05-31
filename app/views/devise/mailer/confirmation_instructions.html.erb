@@ -1,17 +1,12 @@
-<p>Welcome <%= @email %>!</p>
-
-<p>You can confirm your account email through the link below:</p>
-
-<p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
-
 <p>―――――――――――――――――――<br />
 ■ achieve 会員登録のご案内<br />
-―――――――――――――――――――</p>
-
-<p><%= @email %> 様</p>
-
-<p>この度は、achieveに登録いただきまして、ありがとうございます。<br />
-登録の手続きはまだ完了していません。<br />
-以下の「登録確認」をクリックし、登録を完了してください</p>
-
-<p><%= link_to '「登録確認」', confirmation_url(@resource, confirmation_token: @token) %></p>
+―――――――――――――――――――<br />
+<br />
+<%= @email %> 様<br />
+<br />
+この度は achieve にご登録頂きありがとうございます。<br />
+<br />
+登録のお手続きはまだ完了していません。<br />
+以下の「登録確認」をクリックし、登録を完了してください。<br />
+<br />
+→<%= link_to '「登録確認」', confirmation_url(@resource, confirmation_token: @token) %></p>
