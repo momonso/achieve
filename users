@@ -1,0 +1,33 @@
+SELECT * FROM blogs;
+\d blogs;
+\q
+SELECT * FROM blogs;
+\q
+SELECT * FROM form;
+SELECT * FROM forms;
+SELECT * FROM forms;
+\q
+select * from forms;
+select * from forms;
+\q
+select * from forms;
+select * from forms;
+select * from user;
+select * from users;
+\q
+\s
+\d
+\d blogs;
+select* from users;
+\q
+\d
+\t
+\t
+\tabels
+\tables
+\?
+\d
+\d blogs;
+\l
+\s
+\s users
