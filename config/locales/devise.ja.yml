@@ -74,3 +74,4 @@ ja:
            password_confirmation: パスワード確認
            email: メールアドレス
            remember_me: ログイン情報を記憶する
+           current_password: 現在のパスワード
