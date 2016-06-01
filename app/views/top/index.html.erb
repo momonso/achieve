@@ -1,7 +1,7 @@
 <div class="boxA">
     <div class="box1">
         <div class="site">
-            <h1>試作アプリ</h1>
+            <h1>Test</h1>
         </div>
     </div>
 </div>
@@ -15,9 +15,10 @@
             <li><%= link_to 'CONTACT US', form_path, class: "btn" %></li>
             
             <% if user_signed_in? %>
-            <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+            <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn" %></li>
+            <li><%= link_to "登録情報を変更する", edit_user_registration_path, class: "btn" %></li>
             <% else %>
-            <li><%= link_to "Login", new_user_session_path %></li>
+            <li><%= link_to "Login", new_user_session_path, class: "btn" %></li>
             <% end %>
         </ul>
         

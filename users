@@ -31,3 +31,66 @@ select* from users;
 \l
 \s
 \s users
+\schema users
+\schema users;
+\l
+\d
+drop table users;
+\d
+\q
+\d
+rails destroy model users
+\q
+\d
+\d
+\q
+\d
+\q
+\d
+\d
+\l
+\d
+\d blogs
+\q
+\d
+select * from users;
+\q
+\d
+select * from users;
+\q
+\d
+\d users;
+select * from users
+select * from users;
+SELECT * FROM users;
+\q
+SELECT * FROM users;
+S
+SELECT * FROM users;
+\q
+\d
+\z
+\d users
+select * from users;
+exit
+\q
+\d
+\q
+\d
+\q
+\d
+select * from users;
+\?
+\h
+\q
+\d
+SELECT * FROM users;
+SELECT * FROM users;
+\q
+SELECT * FROM users;
+\q
+select * from users;
+\q
+\d
+\d users;
+\s users;

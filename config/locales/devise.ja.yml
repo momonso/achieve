@@ -69,7 +69,7 @@ ja:
   activerecord:
      attributes:
           user:
-           name: 名前
+           name: ユーザ名
            password: パスワード
            password_confirmation: パスワード確認
            email: メールアドレス
