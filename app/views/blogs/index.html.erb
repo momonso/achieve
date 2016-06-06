@@ -1,5 +1,22 @@
 <p id="notice"><%= notice %></p>
 
+<%= link_to 'New Blog', new_blog_path %>
+
+<% @blogs.each do |blog| %>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= blog.title %></h3>
+  </div>
+  <div class="panel-body">
+    <%= blog.content %><br />
+    <em><%= blog.created_at %></em>
+  </div>
+</div>
+<% end %>
+
+
+
+<!-- 一旦削除
 <h1>Blog一覧</h1>
 <p>このサイトではblogを投稿することができます</p>
 
@@ -33,3 +50,4 @@
       <li><%= link_to '新しいブログを作る', new_blog_path, class: 'btn' %></li>
       <li><%= link_to 'TOPへ戻る', root_path, class: "btn" %></li>
     </ul>
+-->
